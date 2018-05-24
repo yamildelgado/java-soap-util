@@ -1,0 +1,50 @@
+<jxb:bindings xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+	<jxb:bindings
+		schemaLocation="http://64.178.214.155:1789/ESign.xsd1.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="api.evertecinc.net" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+	<jxb:bindings
+		schemaLocation="http://64.178.214.155:1789/ESign.xsd2.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="api.ifxforum.org" />
+			<jxb:nameXmlTransform>
+				<jxb:typeName suffix="Type" />
+				<jxb:elementName suffix="Element" />
+			</jxb:nameXmlTransform>
+		</jxb:schemaBindings>
+		
+		<jxb:bindings node="//xs:complexType[@name='PostAddrType']">
+			<jxb:class name="PostAddressType" />
+		</jxb:bindings>
+		<jxb:bindings node="//xs:complexType[@name='PostAddr_Type']">
+			<jxb:class name="PostAddrType" />
+		</jxb:bindings>
+	</jxb:bindings>
+	<jxb:bindings
+		schemaLocation="http://64.178.214.155:1789/ESign.xsd3.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="api.popularinc.com" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+	<jxb:bindings
+		schemaLocation="http://64.178.214.155:1789/ESign.xsd2.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="api.popularinc.com.model" />
+			<jxb:nameXmlTransform>
+				<jxb:typeName suffix="Type" />
+				<jxb:elementName suffix="Element" />
+			</jxb:nameXmlTransform>
+		</jxb:schemaBindings>
+	</jxb:bindings>
+	
+	<jxb:bindings
+		schemaLocation="http://64.178.214.155:1789/ESign.xsd2.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="moebius.data.ssi.core.model" />
+		</jxb:schemaBindings>
+		
+	</jxb:bindings>
+</jxb:bindings>

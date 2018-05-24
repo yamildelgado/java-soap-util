@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:resultTypes="urn:resultTypes" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ls="http://com.seagullsw.appinterface/LegasuiteCICSEngine" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ls:CISACTAIResponse>
+      <Copybook>
+        <LEG315-COMM-REC>
+          <LEG315-O-RET-CODE>1</LEG315-O-RET-CODE>
+          <LEG315-O-ACCT-CD> </LEG315-O-ACCT-CD>
+          <LEG315-O-ADDR-CD>1</LEG315-O-ADDR-CD>
+          <LEG315-O-ACLG-CD> </LEG315-O-ACLG-CD>
+          <LEG315-O-ADLG-CD> </LEG315-O-ADLG-CD>
+          <LEG315-O-SQL-CD>N</LEG315-O-SQL-CD>
+          <LEG315-O-SQLCODE> </LEG315-O-SQLCODE>
+          <LEG315-O-MESSAGE>PU010: REQUEST SUCCESSFUL               </LEG315-O-MESSAGE>
+          <LEG315-ADDR-LINE1-TYPE>A</LEG315-ADDR-LINE1-TYPE>
+          <LEG315-ADDR-LINE1>URB EL CONQUISTADOR                     </LEG315-ADDR-LINE1>
+          <LEG315-ADDR-LINE2-TYPE>S</LEG315-ADDR-LINE2-TYPE>
+          <LEG315-ADDR-LINE2>D39 AVE DIEGO VELAZQUEZ                 </LEG315-ADDR-LINE2>
+          <LEG315-ADDR-LINE3-TYPE>C</LEG315-ADDR-LINE3-TYPE>
+          <LEG315-ADDR-LINE3>TRUJILLO ALTO PR 00976-6402             </LEG315-ADDR-LINE3>
+          <LEG315-ADDR-LINE4-TYPE> </LEG315-ADDR-LINE4-TYPE>
+          <LEG315-ADDR-LINE4>                                        </LEG315-ADDR-LINE4>
+          <LEG315-ADDR-LINE5-TYPE> </LEG315-ADDR-LINE5-TYPE>
+          <LEG315-ADDR-LINE5>                                        </LEG315-ADDR-LINE5>
+          <LEGY315-ADDR-REF-NO>2167352</LEGY315-ADDR-REF-NO>
+          <LEGY315-ADDR-PROCESS-TIME>02.44.01</LEGY315-ADDR-PROCESS-TIME>
+          <LEGY315-ADDR-LAST-CHANGE>5302010150</LEGY315-ADDR-LAST-CHANGE>
+        </LEG315-COMM-REC>
+      </Copybook>
+    </ls:CISACTAIResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<IDAGENUM xmlns="http://com.seagullsw.appinterface/LegasuiteCICSEngine">
+			<WG-IDA-ACCT-LEG-COMMAREA xmlns="">
+				<WG-IDA-COM-HEADER>
+					<WG-IDA-ACCT-ASSIGN-BANK>1</WG-IDA-ACCT-ASSIGN-BANK>
+					<WG-IDA-ACCT-ASSIGN-BRANCH>043</WG-IDA-ACCT-ASSIGN-BRANCH>
+					<WG-IDA-ACCT-ASSIGN-TYPE>C</WG-IDA-ACCT-ASSIGN-TYPE>
+					<WG-IDA-ACCT-ASSIGN-NUM>001</WG-IDA-ACCT-ASSIGN-NUM>
+				</WG-IDA-COM-HEADER>
+			</WG-IDA-ACCT-LEG-COMMAREA>
+		</IDAGENUM>
+	</soapenv:Body>
+</soapenv:Envelope>
